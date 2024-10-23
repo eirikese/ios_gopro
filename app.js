@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var video = document.getElementById('videoPlayer');
-    var videoSrc = 'http://10.5.5.9:8080/live/amba.m3u8';
+    var videoSrc = 'http://10.5.5.110:8080/live/amba.m3u8';
 
     // Check if the browser can play HLS natively (Safari on iOS)
     if (video.canPlayType('application/vnd.apple.mpegurl')) {
